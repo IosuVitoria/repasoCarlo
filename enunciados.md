@@ -88,31 +88,179 @@
 
 25. Agrupa palabras por longitud
 
+26. Suma valores por clave común
+Dado una lista de diccionarios, suma los valores de las claves repetidas.
+
+27. Filtra diccionario por valor
+Devuelve solo las claves cuyo valor sea mayor que un umbral dado.
+
+28. Ordena diccionario por valor
+Devuelve un diccionario ordenado por sus valores de menor a mayor.
+
+29. Encuentra clave con mínimo valor
+Devuelve la clave asociada al valor más pequeño del diccionario.
+
+30. Elimina claves con valor nulo
+Elimina todas las claves cuyo valor sea None, 0 o vacío.
+
+31. Combina diccionarios de inventario
+Dado dos inventarios de productos, combínalos sumando cantidades.
+
+32. Contador de palabras en texto
+Dado un texto, cuenta cuántas veces aparece cada palabra.
+
+33. Diccionario de cuadrados
+Crea un diccionario donde las claves sean números del 1 al n y los valores sus cuadrados.
+
+34. Agrupar por inicial
+Dada una lista de palabras, agrúpalas por su primera letra.
+
+35. Contar tipos de datos
+Dada una lista con distintos tipos de datos, cuenta cuántos hay de cada tipo.
+
+36. Normalizar diccionario
+Convierte todas las claves a minúsculas y elimina duplicados.
+
+37. Encontrar claves duplicadas en valores
+Encuentra qué valores aparecen en más de una clave.
+
+38. Diccionario invertido múltiple
+Invierte un diccionario agrupando claves por valores repetidos.
+
+39. Merge profundo simple
+Fusiona dos diccionarios, pero si hay sub-diccionarios, también los combina.
+
+40. Diccionario de frecuencia ordenado
+Devuelve un diccionario con la frecuencia de caracteres ordenado de mayor a menor.
+
 ---
 
 # 🟡 NIVEL 2 – CONTROL DE FLUJO (41–80)
 
-41. FizzBuzz
-    👉 Pista: módulo %
+41. FizzBuzz extendido
+Escribe un programa que imprima los números del 1 al 100, pero:
 
-42. Números pares 1–100
+múltiplos de 3 → "Fizz"
+múltiplos de 5 → "Buzz"
+múltiplos de 7 → "Bazz"
+múltiplos de varios → concatenar ("FizzBuzz", etc.)
 
-43. Tabla de multiplicar
+42. Números pares en rango
+Dado un rango [a, b], imprime todos los números pares dentro de ese rango.
 
-44. Factorial iterativo
+43. Tabla de multiplicar múltiple
+Imprime las tablas de multiplicar del 1 al 10.
 
-45. Número primo
-    👉 Pista: hasta sqrt(n)
+44. Factorial con validación
+Calcula el factorial de n, pero valida que n no sea negativo.
 
-46. N primeros primos
+45. Verificador de primo optimizado
+Determina si un número es primo usando el menor número de iteraciones posible.
 
-47. Suma de dígitos
+46. Generador de primos hasta N
+Devuelve todos los números primos menores o iguales a n.
 
-48. Número perfecto
+47. Suma de dígitos iterativa
+Calcula la suma de los dígitos de un número sin convertirlo a string.
 
-49. Serie Fibonacci iterativa
+48. Número perfecto generalizado
+Determina si un número es perfecto y muestra sus divisores.
 
-50. Contar dígitos
+49. Fibonacci hasta límite
+Genera números de Fibonacci hasta que el valor supere un límite dado.
+
+50. Contador de dígitos sin strings
+Cuenta los dígitos de un número usando solo operaciones matemáticas.
+
+51. Inversión de número
+Invierte los dígitos de un número entero (ej: 123 → 321).
+
+52. Palíndromo numérico
+Determina si un número es palíndromo sin usar strings.
+
+53. Contador de números positivos y negativos
+Dada una lista, cuenta cuántos números son positivos, negativos y ceros.
+
+54. Suma acumulativa
+Dada una lista, devuelve otra con la suma acumulada.
+
+55. Máximo en lista sin max()
+Encuentra el valor máximo recorriendo la lista manualmente.
+
+56. Mínimo en lista sin min()
+Encuentra el valor mínimo sin usar funciones built-in.
+
+57. Contador de ocurrencias
+Cuenta cuántas veces aparece un número en una lista.
+
+58. Eliminación de negativos
+Dada una lista, devuelve otra sin números negativos.
+
+59. Búsqueda lineal
+Implementa una función que busque un elemento en una lista y devuelva su índice.
+
+60. Suma de números pares
+Suma todos los números pares de una lista.
+
+61. Producto de impares
+Multiplica todos los números impares de una lista.
+
+62. Conteo de vocales en lista de strings
+Cuenta cuántas vocales hay en una lista de palabras.
+
+63. Número mayor a la media
+Cuenta cuántos números en una lista son mayores que la media.
+
+64. Generador de patrones (triángulo)
+Imprime un triángulo de * de altura n.
+
+65. Pirámide invertida
+Imprime una pirámide invertida de *.
+
+66. Tabla de multiplicar formateada
+Imprime una tabla de multiplicar en formato de cuadrícula.
+
+67. Verificación de año bisiesto
+Determina si un año es bisiesto.
+
+68. Conversor de temperatura
+Convierte de Celsius a Fahrenheit y viceversa según input.
+
+69. Clasificador de números
+Clasifica números de una lista en pares e impares.
+
+70. Conteo de palabras largas
+Cuenta cuántas palabras tienen más de 5 caracteres.
+
+71. Filtrar múltiplos de n
+Devuelve los números de una lista que sean múltiplos de n.
+
+72. Suma hasta condición
+Suma números de una lista hasta que la suma supere un límite.
+
+73. Simulación de login
+Permite hasta 3 intentos para introducir usuario/contraseña correctos.
+
+74. Juego de adivinanza
+El programa genera un número aleatorio y el usuario debe adivinarlo.
+
+75. Validación de entrada
+Solicita un número hasta que el usuario introduzca uno válido.
+
+76. Contador regresivo
+Imprime una cuenta atrás desde n hasta 0.
+
+77. Detección de duplicados
+Determina si hay elementos repetidos en una lista.
+
+78. Separación de listas
+Divide una lista en dos: menores y mayores que un valor dado.
+
+79. Intersección manual de listas
+Encuentra elementos comunes entre dos listas sin usar sets.
+
+80. Unión manual de listas
+Une dos listas evitando duplicados sin usar set.
 
 ---
 
